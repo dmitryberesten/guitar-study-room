@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Study Room | Уроки гітари для дітей та підлітків (Вишневе & Онлайн)</title>
+    <meta name="description"
+        content="Індивідуальні уроки класичної, акустичної та електрогітари для дітей і підлітків (10-17 років). Онлайн та офлайн у Вишневому від Дмитра Берестеня.">
+    <meta name="author" content="Дмитро Берестень">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Іконка сайту -->
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+
+    <!-- Прев'ю для месенджерів і соціальних мереж -->
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Guitar Study Room">
+    <meta property="og:title" content="Guitar Study Room — сучасні уроки гітари">
+    <meta property="og:description"
+        content="Індивідуальні уроки акустичної, електро- та класичної гітари для дітей і підлітків. Онлайн та офлайн у Вишневому.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&amp;w=1200&amp;h=630&amp;auto=format&amp;fit=crop">
+    <meta property="og:image:alt" content="Гітара під час музичного заняття">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guitar Study Room — сучасні уроки гітари">
+    <meta name="twitter:description"
+        content="Індивідуальні уроки гітари для дітей і підлітків. Онлайн та офлайн у Вишневому.">
+    <meta name="twitter:image"
+        content="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&amp;w=1200&amp;h=630&amp;auto=format&amp;fit=crop">
+
+    <!-- Структуровані дані для пошукових систем -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "name": "Guitar Study Room",
+            "description": "Індивідуальні уроки акустичної, електро- та класичної гітари для дітей і підлітків.",
+            "founder": {
+                "@type": "Person",
+                "name": "Дмитро Берестень"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Вишневе"
+            },
+            "sameAs": [
+                "https://t.me/dmytro_teacherrr"
+            ]
+        }
+    </script>
+
+    <!-- Шрифт Inter від Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Підключення зовнішнього стилю -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. ШАПКА САЙТУ -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.6"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 2C16.8 2 20 5 20 9.2c0 5.1-3.7 10-8 12.8-4.3-2.8-8-7.7-8-12.8C4 5 7.2 2 12 2Z" />
+                </svg>
+                Guitar <span>Study Room</span>
+            </a>
+
+            <!-- Навігаційне меню -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Про викладача</a></li>
+                <li><a href="#instruments">Напрямки</a></li>
+                <li><a href="#advantages">Переваги</a></li>
+                <li><a href="#trial">Пробний урок</a></li>
+                <li><a href="#reviews">Відгуки</a></li>
+                <li><a href="#faq">Питання</a></li>
+            </ul>
+
+            <a href="https://t.me/dmytro_teacherrr" target="_blank" class="btn btn-primary btn-header">
+                Записатися
+            </a>
+
+            <!-- Бургер кнопка для мобільних пристроїв -->
+            <button class="burger" id="burgerBtn" aria-label="Відкрити меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 2. СЕКЦІЯ ГЕРОЙ (HERO) -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">🎸 Індивідуальні уроки • Онлайн & Офлайн у Вишневому</span>
+            <h1>Від першого акорду до улюбленої пісні: сучасні уроки гітари для дітей та підлітків</h1>
+            <p>Живі заняття один на один для дітей та підлітків (10–17 років). Граємо улюблені хіти з перших уроків без
+                нудної теорії.</p>
+            <div class="hero-buttons">
+                <a href="https://t.me/dmytro_teacherrr" target="_blank" class="btn btn-primary">
+                    Записатися на безкоштовний пробний урок 🚀
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    Дізнатися більше
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. СЕКЦІЯ ПРО ВИКЛАДАЧА -->
+    <section id="about">
+        <div class="container">
+            <div class="teacher-grid">
+                <div class="teacher-image-wrapper">
+                    <img src="./images/guitar_teacher.jpg" alt="Дмитро Берестень — викладач гітари"
+                        class="teacher-image">
+                    <div class="teacher-experience-badge">
+                        <div class="number">8+</div>
+                        <div class="text">років досвіду гри</div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <h3>Дмитро Берестень</h3>
+                    <p class="teacher-subtitle">Засновник Guitar Study Room & викладач гітари</p>
+                    <p class="teacher-desc">
+                        Привіт! Я викладач гітари, який допомагає дітям та підліткам закохатися в музику. Заняття
+                        проходять в цікавій сучасній формі яка ефективно поєднує гру та теорію. Також я
+                        понад 3 роки успішно навчаю учнів онлайн та офлайн в місті Вишневе.
+                    </p>
+                    <p class="teacher-desc">
+                        Мій підхід — це перш за все інтерес дитини. Ми не зубримо місяцями нудну теорію, а вчимося грати
+                        ті пісні, які дитина насправді слухає та любить.
+                    </p>
+
+                    <div class="teacher-highlights">
+                        <div class="highlight-item">
+                            🎓 3+ роки викладання підліткам
+                        </div>
+                        <div class="highlight-item">
+                            🏠 Затишний гітарний клас
+                        </div>
+                        <div class="highlight-item">
+                            💻 Ефективні онлайн-уроки
+                        </div>
+                        <div class="highlight-item">
+                            🤝 Дружня атмосфера
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. СЕКЦІЯ НАПРЯМКІВ НАВЧАННЯ -->
+    <section id="instruments" class="instruments-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Обирай свій інструмент</h2>
+                <p>Навчаємо з нуля або допомагаємо покращити вже наявні навички</p>
+            </div>
+
+            <div class="instruments-grid">
+                <!-- Акустична гітара -->
+                <div class="card instrument-card">
+                    <div class="instrument-icon-bg">
+                        <img src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0?q=80&w=240&auto=format&fit=crop"
+                            alt="Акустична гітара">
+                    </div>
+                    <h3>Акустична гітара</h3>
+                    <p>Ідеальний вибір для акомпанементу, улюблених пісень, сучасних pop та rock хітів. Яскравий та
+                        насичений звук.</p>
+                </div>
+
+                <!-- Електрогітара -->
+                <div class="card instrument-card">
+                    <div class="instrument-icon-bg">
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fender%20Stratocaster.jpg?width=240"
+                            alt="Електрогітара">
+                    </div>
+                    <h3>Електрогітара</h3>
+                    <p>Для тих, хто мріє про сольні партії, драйвові рифи, ефекти та рок-музику. Навчаємо правильній
+                        техніці та роботі зі звуком.</p>
+                </div>
+
+                <!-- Класична гітара -->
+                <div class="card instrument-card">
+                    <div class="instrument-icon-bg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Classical_Guitar_two_views.jpg/250px-Classical_Guitar_two_views.jpg"
+                            alt="Класична гітара">
+                    </div>
+                    <h3>Класична гітара</h3>
+                    <p>М'які нейлонові струни, ідеально підходять для початківців. М'який теплий звук та максимальний
+                        комфорт для пальців.</p>
+                </div>
+            </div>
+
+            <div class="instrument-note">
+                💡 <strong>Приємна деталь для офлайн-уроків:</strong> Не обов'язково одразу купувати або носити свій
+                інструмент! У класі є всі види гітар для занять.
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. СЕКЦІЯ ПЕРЕВАГ -->
+    <section id="advantages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Переваги навчання в Guitar Study Room</h2>
+                <p>Сучасний підхід, де головне — результат та задоволення дитини</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="card feature-card">
+                    <div class="feature-icon">🎸</div>
+                    <div class="feature-content">
+                        <h3>Репертуар під смак дитини</h3>
+                        <p>Вчимо тільки те, що подобається: від поп музики та рок-класики до сучасних українських
+                            треків також будь які вподобання учня.</p>
+                    </div>
+                </div>
+
+                <div class="card feature-card">
+                    <div class="feature-icon">❌</div>
+                    <div class="feature-content">
+                        <h3>Без нудної теорії</h3>
+                        <p>Жодних складних академічних талмудів. Всю необхідну теорію подаю просто, наочно та одразу на
+                            практиці.</p>
+                    </div>
+                </div>
+
+                <div class="card feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <div class="feature-content">
+                        <h3>Гнучкий графік</h3>
+                        <p>Підлаштовуємо розклад під шкільне навчання та інші гуртки. Можливість гнучкого перенесення
+                            занять.</p>
+                    </div>
+                </div>
+
+                <div class="card feature-card">
+                    <div class="feature-icon">✨</div>
+                    <div class="feature-content">
+                        <h3>Комфорт та атмосфера</h3>
+                        <p>Уроки проходять без стресу, криків чи оцінок. Дитина почувається впевнено та розкриває свій
+                            потенціал.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. СЕКЦІЯ ПРОБНОГО УРОКУ -->
+    <section id="trial">
+        <div class="container">
+            <div class="trial-bg">
+                <div class="trial-header">
+                    <h2>Що чекає на дитину на безкоштовному пробному уроці?</h2>
+                    <p>30 хвилин, які змінять уявлення про навчання музиці</p>
+                </div>
+
+                <div class="trial-steps">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h4>Знайомство</h4>
+                        <p>Визначимо улюблені музичні гурти та цілі дитини.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h4>Перші кроки</h4>
+                        <p>Знайомство з гітарою, правильною посадкою та триманням медіатора.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h4>Практика</h4>
+                        <p>Вивчимо перші прості акорди або легку таб-мелодію.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">04</div>
+                        <h4>Результат</h4>
+                        <p>Дитина зіграє свій перший ритм та отримає план розвитку.</p>
+                    </div>
+                </div>
+
+                <div class="trial-cta">
+                    <a href="https://t.me/dmytro_teacherrr" target="_blank" class="btn btn-primary btn-trial">
+                        Записатися на пробний урок у Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. СЕКЦІЯ ВІДГУКІВ -->
+    <section id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Відгуки батьків</h2>
+                <p>Що кажуть мами про результати своїх дітей</p>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="card review-card">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Син (14 років) ходив без захоплення до музичної школи, поки ми не
+                            знайшли Дмитра. За 2 місяці зайнявся електрогітарою так, що не відтягнеш! Дмитро знайшов
+                            підхід моментально.»</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="avatar avatar-1">ОМ</div>
+                        <div class="author-info">
+                            <h4>Олена Марченко</h4>
+                            <p>Мама Максима (14 років)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card review-card">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Займаємося онлайн вже пів року, живемо в іншому місті. Дуже хвилювалася
+                            чи буде ефективно онлайн, але Дмитро чудово тримає увагу доньки. Вона вже грає свої улюблені
+                            пісні!»</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="avatar avatar-2">ТК</div>
+                        <div class="author-info">
+                            <h4>Тетяна Ковальчук</h4>
+                            <p>Мама Софії (12 років)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card review-card">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Ходимо офлайн у Вишневому. У Дмитра дуже класний клас, хороші гітари.
+                            Син у захваті від уроків, викладач терплячий, сучасний і на одній хвилі з підлітками.»</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="avatar avatar-3">ІС</div>
+                        <div class="author-info">
+                            <h4>Ірина Савченко</h4>
+                            <p>Мама Дениса (15 років)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. СЕКЦІЯ ПИТАНЬ ТА ВІДПОВІДЕЙ (FAQ) -->
+    <section id="faq" class="faq-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Часті запитання (FAQ)</h2>
+                <p>Відповіді на популярні питання батьків перед початком занять</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Чи потрібні дитині знання нот для старту?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ні, абсолютно не потрібні! Ми починаємо з простих табулатур та схем акордів, що дозволяє
+                            грати зрозумілі мелодії вже з перших занять. Базову теорію дитина засвоює природно під час
+                            практики.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Що потрібно для онлайн-уроку?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ноутбук, планшет або смартфон зі стабільним інтернетом, гітара та бажання вчитися. Я підкажу,
+                            як зручно поставити камеру, щоб було добре видно руки.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Що потрібно для офлайн-уроку у Вишневому?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Тільки прийти у хорошому настрої! Якщо у вас ще немає власного інструменту, дитина може
+                            займатися на гітарах у моєму класі.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Якщо у нас немає своєї гітари, чи купувати її одразу?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Не поспішайте купувати інструмент до першого уроку. На пробному занятті ми визначимося з
+                            вибором, і я особисто допоможу підібрати якісний інструмент під бюджет та зріст дитини.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Як дізнатися вартість та розклад занять?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Напишіть мені у Telegram! Ми підберемо зручний час для пробного уроку та обговоримо всі
+                            деталі і графік занять.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. ЗАКЛИК ДО ДІЇ (CTA) -->
+    <div class="container">
+        <div class="cta-section">
+            <div class="cta-content">
+                <h2>Готові зробити перший крок у музику?</h2>
+                <p>Запишіться на безкоштовне пробне заняття прямо зараз у Telegram та дайте дитині можливість спробувати
+                    свої сили!</p>
+                <a href="https://t.me/dmytro_teacherrr" target="_blank" class="btn btn-white">
+                    👉 Написати в Telegram
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10. ФУТЕР -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="logo">
+                    Guitar <span>Study Room</span>
+                </div>
+                <div>
+                    Навчання грі на гітарі для дітей та підлітків (10-17 років)
+                </div>
+                <div>
+                    <a href="https://t.me/dmytro_teacherrr" target="_blank" class="footer-link">Telegram:
+                        @dmytro_teacherrr</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Guitar Study Room.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Підключення зовнішнього JS-файлу -->
+    <script src="script.js"></script>
+</body>
+
+</html>
